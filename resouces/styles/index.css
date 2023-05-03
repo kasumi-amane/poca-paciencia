@@ -1,0 +1,18 @@
+.header {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-color: rgb(39, 36, 36);
+  display: flex;
+  justify-content: center;
+}
+.main{
+  max-width: 100%;
+  background-color: black;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+      &_picture{
+          width: 250px;
+      }
+}
